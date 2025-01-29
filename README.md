@@ -1,6 +1,6 @@
 # Drone Object Detection - COCO Dataset 
 
-![Link To Dataset](https://www.kaggle.com/datasets/dasmehdixtr/drone-dataset-uav/data) 
+[Link To Dataset](https://www.kaggle.com/datasets/dasmehdixtr/drone-dataset-uav/data) 
 
 ## 📌 Project Overview
 This project focuses on **annotating drones** using the **COCO dataset format** to train machine learning models for **drone detection**. The dataset consists of images with bounding box annotations, which can be used for **object detection models** like **YOLOv8, Faster R-CNN, or SSD**.
@@ -11,13 +11,10 @@ The dataset is structured as follows:
 ```
 📂 drone-object-detection
  ├── 📂 images/
- │   ├── train/    
- │   ├── test/     
+ │   ├── 🖼️    
  ├── 📂 annotations/
  │   ├── result.json  # COCO annotations
  ├── 📜 README.md        # Project documentation
- ├── 📝 dataset_split.py  # Script to split train/test
- ├── 📝 visualize_annotations.py  # Script to visualize labels
 ```
 
 ## 🖼️ Sample Annotations
