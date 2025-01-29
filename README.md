@@ -20,7 +20,7 @@ The dataset is structured as follows:
 ## 🖼️ Sample Annotations
 The dataset contains labeled drone images with bounding boxes:
 
-[Sample Annotation](https://your-image-link-here) 
+[Sample Annotation](https://github.com/maxprodigy/drone-object-detection/blob/main/images/sample.png) 
 
 ## 🚀 Features
 ✅ **COCO-format annotations** for easy integration with deep learning models  
