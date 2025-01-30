@@ -10,11 +10,15 @@ The dataset is structured as follows:
 
 ```
 📂 drone-object-detection
- ├── 📂 images/
- │   ├── 🖼️    
- ├── 📂 annotations/
- │   ├── result.json  # COCO annotations
- ├── 📜 README.md        # Project documentation
+ ├── 📂 images/            # Contains all drone images
+ │   ├── 🖼️ image1.jpg
+ │   ├── 🖼️ image2.jpg
+ │   └── ...
+ ├── 📂 annotations/       # Contains COCO-format annotations
+ │   ├── result.json
+ ├── 📜 README.md          # Project documentation
+ ├── 📜 visualizations.py  # Script to visualize annotations
+ └── 📜 dataset_split.py   # Script to split dataset into train/test sets
 ```
 
 ## Sample Annotations
@@ -43,10 +47,10 @@ pip install opencv-python matplotlib json
 ### Visualize Annotations
 To see how the bounding boxes look on the images:
 ```
-python visualize_annotations.py
+python visualizations.py
 ```
 
-### 4️⃣ Split Dataset into Train/Test
+### Split Dataset into Train/Test
 Run the script to automatically divide the dataset:
 ```
 python dataset_split.py
